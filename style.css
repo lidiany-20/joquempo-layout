@@ -1,0 +1,135 @@
+body{
+    background-color: #82CDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 56px;
+    
+}
+
+.winner{
+    background-color: #0099FF;
+    height: 74px;
+    color: #FFFFFF;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 65px;
+    border-radius: 12px 12px 0 0;
+    max-width: 430px;
+}
+
+.score-box{
+    background-color: #0099FF;
+    height: 148px;
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    padding: 0 33px;
+}
+
+.player-name{
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.score{
+    background-color:#FFFFFF ;
+    color: #0099FF;
+    font-size: 104px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: 900;
+    
+}
+
+.versus{
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.versus--field{
+    font-size: 100px;
+    margin: 0 88px;
+}
+
+.player-name-1{
+    margin-right: 19px;
+}
+
+.player-name-2{
+    margin-left: 19px;
+}
+
+.score-1{
+margin-right: 51px;
+}
+
+.score-2{
+margin-left: 51px;    
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.button-object{
+    background-color:#0099FF;
+    color: #FFFFFF;
+    font-size: 44px;
+    height: 80px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 300ms;
+    
+}
+.button-object:hover{
+    border: 1px solid #0099FF;
+    background-color: transparent;
+    color:#0099FF;
+    box-shadow: 5px 5px 10px #0000004d;
+
+}
+
+.battlefield-container{
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.battlefield{
+    display: flex;
+    align-items: center;
+    background-color:#0099FF;
+    padding: 30px;
+    border-radius: 17px;
+    margin:0 19px;
+}
+
+.field{
+    width: 420px;
+    height: 300px ;
+    background-color: #DBF1FF;
+    border-radius: 17px;
+}
+
+.button-start{
+    margin-right: 101px;
+}
